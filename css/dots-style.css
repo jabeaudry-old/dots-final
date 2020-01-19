@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Mono|Space+Mono&display=swap');
+
+
+/*dots*/
+.background {
+    background-color: black;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    width: 110vw;
+    height: 110vh;
+}
+
+#dots-container-id {
+    position: relative;
+    width: 1000px;
+    top: 0%;
+    left: 0%;
+    color: white;
+    transition: left .5s ease-in, top .5s ease-in;
+    overflow: visible;
+}
+
+#dots {
+    overflow: visible;
+    width: 1110vw;
+    height: 110vh;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    position: relative;
+    background-color: black;
+    justify-content: center;
+    align-content: center;
+    margin: -40px;
+   
+}
+
+#click-anywhere {
+    font-size: 2em;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    left: 55%;
+    bottom: 10%;
+    overflow: visible;
+    opacity: 1;
+    position: absolute;
+    z-index: 10;
+}
+
