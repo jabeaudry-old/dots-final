@@ -1,5 +1,5 @@
 var n = 0;
-var whatever = 4;
+var variation = 4;
 
 
 function setup() {
@@ -29,11 +29,11 @@ backgroundContainer.addEventListener("click", function(event) {
 
 function draw() {
     var a = n * 137.5;
-    var radius = whatever * sqrt(n);
-    var xxx = radius * cos(a) + width/2;
-    var yyy = radius * sin(a) + height/2;
+    var radius = variation * sqrt(n);
+    var shiftX = radius * cos(a) + width/2;
+    var shiftY = radius * sin(a) + height/2;
      
-      ellipse (xxx,yyy,5,5);
+      ellipse (shiftX,shiftY,5,5);
      
       
     n++
